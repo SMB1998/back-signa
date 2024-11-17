@@ -64,4 +64,12 @@ REST_FRAMEWORK = {
     ),
 }
 
+CORS_ALLOWED_ORIGINS = [
+    "*",  # frontend local
+]
+
+
+CORS_ALLOW_ALL_ORIGINS = True
+
+
 
