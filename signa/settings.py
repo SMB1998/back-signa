@@ -13,7 +13,7 @@ DEBUG = os.getenv('DEBUG') == 'True'
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') 
 
-ALLOWED_HOSTS = ['signa-qb4n.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['back-signa-1.onrender.com', 'localhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     
