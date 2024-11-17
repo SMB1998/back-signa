@@ -6,7 +6,7 @@ from django.core.management import execute_from_command_line
 
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "your_project_name.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "signa.settings")
     
     # Establecer el puerto desde la variable de entorno PORT
     port = os.environ.get("PORT", 8000)  # Si no está definido, usará el puerto 8000
