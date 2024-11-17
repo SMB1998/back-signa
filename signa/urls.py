@@ -1,4 +1,4 @@
-# sigma/urls.py
+# signa/urls.py
 
 from django.urls import path, include
 

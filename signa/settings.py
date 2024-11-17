@@ -13,7 +13,7 @@ DEBUG = os.getenv('DEBUG') == 'True'
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') 
 
-ALLOWED_HOSTS = ['sigma-qb4n.onrender.com', 'loaclhost', '127.0.0.1']
+ALLOWED_HOSTS = ['signa-qb4n.onrender.com', 'loaclhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     
@@ -51,6 +51,6 @@ DATABASES = {
     }
 }
 
-ROOT_URLCONF = 'sigma.urls'
+ROOT_URLCONF = 'signa.urls'
 
 
