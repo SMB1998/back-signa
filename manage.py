@@ -2,6 +2,16 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+from django.core.management import execute_from_command_line
+
+
+if __name__ == "__main__":
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "your_project_name.settings")
+    
+    # Establecer el puerto desde la variable de entorno PORT
+    port = os.environ.get("PORT", 8000)  # Si no está definido, usará el puerto 8000
+    
+    execute_from_command_line(["manage.py", "runserver", f"0.0.0.0:{port}"])
 
 
 def main():
