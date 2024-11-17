@@ -65,11 +65,9 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "*",  # frontend local
+    "http://localhost:5173",
 ]
 
 
 CORS_ALLOW_ALL_ORIGINS = True
-
-
 
